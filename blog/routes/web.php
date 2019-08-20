@@ -17,3 +17,4 @@ Route::get('/', function () {
 Route::get('hello', 'AdminController@sayHello');
 Route::get('hello-world', 'AdminController@helloWorld');
 //Route::get('student-list', 'AdminController@studentList');
+Route::get('staff-list', 'AdminController@showStaffList');
